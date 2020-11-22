@@ -44,14 +44,6 @@ functions:
           method: post
           Content-Type: application/json
           cors: true
-  listarUsuarios:
-    handler: handler.listarUsuarios
-    events:
-      - http:
-          path: usuario
-          method: post
-          Content-Type: application/json
-          cors: true
   # StarWars API
   consultarPlaneta:
     handler: handler.listarUsuarios
